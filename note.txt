@@ -1,0 +1,24 @@
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+teknik chiper :
+1. Enkripsi Data dengan Metode Cipher Block Chaining (CBC)
+2. Digunakan SHA-256 sebagai algoritma hash
+3. Key yang digunakan adalah "TeknikInformatika"
+4. Padding yang digunakan adalah PKCS7
+5. IV yang digunakan adalah 0x00, 0
+
+KHOOR
+K=H, H=E, O=L, O=L, R=O
+=HELLO
+
+===
+Enkripsi dengan Caesar Cipher:
+
+Teks asli: "HELLO"
+Geser 3 langkah: H -> K, E -> H, L -> O, L -> O, O -> R
+Teks terenkripsi: "KHOOR"
+Dekripsi dengan Caesar Cipher:
+
+Teks terenkripsi: "KHOOR"
+Geser mundur 3 langkah: K -> H, H -> E, O -> L, O -> L, R -> O
+Teks asli: "HELLO"
